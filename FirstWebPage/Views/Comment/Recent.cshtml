@@ -1,0 +1,20 @@
+﻿@{
+    Layout = null;
+}
+
+@model FirstWebPage.Models.RecentDataModel
+
+<div id="comments">
+    <div class="lthead" align="center"><span class="tphead">Последние комментарии</span></div>
+    <ul>
+        @foreach (var item in Model.Items)
+        {
+            <li>
+                <p class="date"><span>@item.Date.ToString("D")</span> <span>@item.Date.ToString("hh:mm")</span></p>
+                <p class="post">
+                    @Html.RouteLink("Сcылка на комментарий", "article", new { seoUrl = item.Text})
+                </p>
+            </li>
+        }
+    </ul>
+</div>

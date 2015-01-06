@@ -1,0 +1,47 @@
+﻿<!--Эта страница принимает модели таких типов как-->
+<!--model firstwebpage.models.articlemodel-->
+
+ @* using Database.Models 
+    @model FirstWebPage.Models.ArticleModel
+
+
+
+        @if (Model.Posts != null)
+            {
+
+            foreach (var @model  in Model.Posts)
+            {
+    <div class="document">
+        <div>&nbsp;</div>
+
+            <div class="dochead">
+                <span class="dhead">dfgdfg</span>
+            </div>
+            <div>
+                <p class="post"><span>dfg</span> <span>dfg</span></p>
+            </div>
+            <div class="dcontent">
+                dfgdf
+                <br>
+                <br>
+                
+            </div>
+
+        <div class="bubble" align="right">
+            <ul>
+                <!--    foreach (var item in Model.Likes)
+                    {
+                        <li><a href="#"><img src="~/Content/images/facebook-24.png" /><span>item.LikesCount</span></a></li>
+                    }    -->
+                <!--<li><a href="#"><img src="~/Content/images/facebook-24.png" /><span>355</span></a></li>
+                 <li><a href="#"><img src="~/Content/images/twitter-24.png" /><span>277</span></a></li>
+                 <li><a href="#"><img src="~/Content/images/bootstrap-24.png" /><span>788</span></a></li>-->
+            </ul>
+        </div>
+    </div>
+    <div class="rtboxbg">&nbsp;</div>
+    <div class="gap"></div>
+    }
+      }
+
+*@

@@ -1,0 +1,73 @@
+﻿
+<!--Эта страница принимает модели таких типов как-->
+<!--model firstwebpage.models.articlemodel-->
+ @using Database.Models
+ @model FirstWebPage.Models.ArticleModel
+
+
+<div class="document">
+    <div>&nbsp;</div>
+    @if(Model.Post !=null)
+    {
+    <div class="dochead">
+        <span class="dhead">@Model.Post.Title</span>
+    </div>
+    <div>
+        <p class="post"><span>@Model.Post.DateCreated.ToString("D")</span> <span>@Model.Post.DateCreated.ToString("hh:mm")</span></p>
+    </div>
+    <div class="dcontent">
+       @Html.Raw(Model.Post.Body)
+        <br>
+        <br>
+        
+    </div>
+    }
+    <div class="bubble" align="right">
+        <ul>
+        <!--    foreach (var item in Model.Likes)
+            {
+                <li><a href="#"><img src="~/Content/images/facebook-24.png" /><span>item.LikesCount</span></a></li>
+            }    -->
+            <!--<li><a href="#"><img src="~/Content/images/facebook-24.png" /><span>355</span></a></li>
+             <li><a href="#"><img src="~/Content/images/twitter-24.png" /><span>277</span></a></li>
+             <li><a href="#"><img src="~/Content/images/bootstrap-24.png" /><span>788</span></a></li>-->
+        </ul>
+    </div>
+</div>
+<div class="rtboxbg">&nbsp;</div>
+<div class="gap"></div>
+
+<div class="comments-add">
+    <div>&nbsp;</div>
+    <div class="сomments-title">
+        <span class="dhead">Комментарии</span>
+    </div>
+    <div class="comments-content">
+        @Html.Partial("~/Views/Home/AddComment.cshtml")
+        <!--Html.Partial("~/Views/Home/AddComment.cshtml", null, new ViewDataDictionary())-->
+        <ul class="list-comment">
+            @if (Model.Comments != null)
+            {
+               foreach (var item in Model.Comments)
+               {
+                <li><hr></li>
+                <li>
+
+                     <div class="avatar"><img src="~/Content/images/4tpTxSHyrlI.jpg" width="100px" height="100px" alt="" /></div>
+                     <div class="comments-text">
+                        <h4><span>Логин</span><span class="mail">dfg@df.dfg</span></h4>
+                        <span class="date">@DateTime.Now.Date.ToString("D")</span><span class="date">@DateTime.Now.Date.ToString("hh:mm")</span>
+                        <p>@item</p>
+                    </div>
+                </li>
+                }
+            }
+
+
+        </ul>
+        <div>&nbsp;</div>
+
+    </div>
+</div>
+<div class="rtboxbg">&nbsp;</div>
+<div class="gap"></div>

@@ -1,0 +1,68 @@
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\FirstWebPage.dll.config
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\FirstWebPage.dll
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\FirstWebPage.pdb
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\Antlr3.Runtime.dll
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\EntityFramework.dll
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\Newtonsoft.Json.dll
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\System.Net.Http.Formatting.dll
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\System.Web.Http.dll
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\System.Web.Http.WebHost.dll
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\System.Web.Mvc.dll
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\System.Web.Optimization.dll
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\System.Web.Providers.dll
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\System.Web.Razor.dll
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\System.Web.WebPages.dll
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\System.Web.WebPages.Razor.dll
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\WebGrease.dll
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\EntityFramework.xml
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\Newtonsoft.Json.xml
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\System.Net.Http.Formatting.xml
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\System.Web.Http.xml
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\System.Web.Http.WebHost.xml
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\System.Web.Mvc.xml
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\System.Web.Razor.xml
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\System.Web.WebPages.xml
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\System.Web.WebPages.Razor.xml
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\obj\Debug\FirstWebPage.csprojResolveAssemblyReference.cache
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\obj\Debug\FirstWebPage.dll
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\obj\Debug\FirstWebPage.pdb
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\EntityFramework.SqlServer.dll
+C:\Users\Кира\Documents\Visual Studio 2013\Projects\FirstWebPage\FirstWebPage\bin\EntityFramework.SqlServer.xml
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\FirstWebPage.dll.config
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\FirstWebPage.dll
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\FirstWebPage.pdb
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\Antlr3.Runtime.dll
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\EntityFramework.dll
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\EntityFramework.SqlServer.dll
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\Microsoft.Web.Infrastructure.dll
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\Newtonsoft.Json.dll
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\System.Net.Http.Formatting.dll
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\System.Web.Http.dll
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\System.Web.Http.WebHost.dll
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\System.Web.Mvc.dll
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\System.Web.Optimization.dll
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\System.Web.Providers.dll
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\System.Web.Razor.dll
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\System.Web.WebPages.Deployment.dll
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\System.Web.WebPages.dll
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\System.Web.WebPages.Razor.dll
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\WebGrease.dll
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\EntityFramework.xml
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\EntityFramework.SqlServer.xml
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\Newtonsoft.Json.xml
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\System.Net.Http.Formatting.xml
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\System.Web.Http.xml
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\System.Web.Http.WebHost.xml
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\System.Web.Mvc.xml
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\System.Web.Razor.xml
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\System.Web.WebPages.xml
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\System.Web.WebPages.Deployment.xml
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\bin\System.Web.WebPages.Razor.xml
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\obj\Debug\FirstWebPage.dll
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\obj\Debug\FirstWebPage.pdb
+E:\zheka100500\БГУИР\3 курс\РВП\FirstWebPage\FirstWebPage\obj\Debug\FirstWebPage.csprojResolveAssemblyReference.cache

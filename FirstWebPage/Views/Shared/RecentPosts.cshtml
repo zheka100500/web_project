@@ -1,0 +1,20 @@
+﻿@{
+    Layout = null;
+}
+
+<!--Собственная часть предсталения с другим типом модели RecentDataModel являющ.свойством модели Layout-->
+@model FirstWebPage.Models.RecentDataModel
+
+<div id="mostpop">
+    <div class="lthead"><span>Последние посты</span></div>
+    <ul>
+        @foreach (var item in Model.Items)
+        {
+            <li>
+                <p class="date">@item.Date.ToString("D")</p>
+                <p class="post"><a href="@item.URL">@item.Text</a></p>
+            </li>
+        }
+    </ul>
+    <div class="clear"></div>
+</div>

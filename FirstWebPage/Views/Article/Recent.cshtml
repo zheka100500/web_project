@@ -1,0 +1,21 @@
+﻿@{
+    Layout = null;
+}
+
+@model FirstWebPage.Models.RecentDataModel
+
+<div id="mostpop">
+    <div class="lthead"><span>Последние посты</span></div>
+    <ul>
+        @foreach (var item in Model.Items)
+        {
+            <li>
+                <p class="date">@item.Date.ToString("D")</p>
+                <p class="post">
+                    @Html.RouteLink("Сcылка на пост", "article", new { seoUrl = item.Text })
+                </p>
+            </li>
+        }
+    </ul>
+    <div class="clear"></div>
+</div>

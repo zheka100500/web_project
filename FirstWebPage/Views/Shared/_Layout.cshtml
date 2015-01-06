@@ -1,0 +1,70 @@
+﻿ <!--Мастер страница(контейнер,в который вставляется наша страница)-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Блог</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/css/style.css" />
+
+</head>
+<body>
+    
+    <div id="wrapper">
+       
+        <div id="container">
+            <!--Левая колонка-->
+            <div id="left">
+                <!--hdlogo starts-->
+                <div id="hdlogo" align="center">
+                    <img src="~/Content/images/topbanner.jpg" alt="" />
+                </div>
+                <!--hdlogo ends-->
+
+                <div class="ltgap"></div>
+                <!-- search starts-->
+                <div id="search">
+                    <div class="input">
+                        <input type="text" name="search" class="textbox" /> <input type="submit" value="ПОИСК" class="searchBut" />
+                    </div>
+                </div>
+                <!--search ends-->
+
+                <div class="ltgap"></div>
+                    @Html.Action("Recent", "Article")
+                <div class="ltgap"></div>
+                    @Html.Action("Recent", "Comment")
+                <div class="ltgap"></div>
+
+            </div>
+            <!--Правая колонка-->
+            <div id="right">
+                
+                <div class="publish">Капля никотина убивает лошадь. А чашка кофе - клавиатуру</div>
+                
+                <div class="head">Блог сис админа</div>
+                
+                <div id="menulinks">
+                    <ul>
+                        <li>@Html.ActionLink("Последний", "Index", "Home", null, null)</li>
+                        <li>@Html.ActionLink("Архив", "History", "Home", null, null)</li>
+                        <li>@Html.ActionLink("О блоге", "About", "Home", null, null)</li>
+                        @*<a href="@Url.Action("ById", "Comment", new {id = item.ID})">Hello!!!!</a>*@
+                        @*Html.ActionLink("World!!!!!", "ById", "Comment", new { id = item.ID }, null)  null-атрибуты для ссылки например класс *@ 
+                        @*<a href="@Url.RouteUrl("default1", new { controller = "Comment", action = "ById", id = item.ID })">@item.Text</a>*@
+                        @*@Html.RouteLink("Hello from Mars", "article", new { seoUrl = item.Text })*@
+                        
+                    </ul>
+                </div>
+                <div class="clear"></div>
+                @RenderBody() <!--директива, которая “рисует”, собственно, тот View, для которого работает данный Layout.-->
+                <br />
+
+            </div>
+            <div id="footer"></div>
+        </div>
+        
+    </div>
+</body>
+</html>
+

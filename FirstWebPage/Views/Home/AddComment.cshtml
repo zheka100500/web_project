@@ -1,0 +1,27 @@
+﻿@{
+    Layout = null;
+}
+
+ @model FirstWebPage.Models.ArticleModel
+
+<div class="add-comment">
+    @Html.ValidationSummary()
+    <form action="@Url.Action("Index","Home")" method="post">
+        <input type="hidden" name="title" value="Удалённое управление компьютером">
+        <span >Логин</span>
+        
+        @Html.TextBoxFor(m => m.NewComment.UserName , new { @class = "textbox, box" })
+        <span>Email</span>
+        @Html.TextBoxFor(m => m.NewComment.Mail, new { @class = "textbox, box" })
+        @Html.TextAreaFor(m=>m.NewComment.Commenttext, new { placeholder = "Напиши сюда комментарий" })
+       
+       <!--<textarea name="commenttext" id="commenttext" placeholder="Напиши сюда комментарий"></textarea>
+        /<input type="text" name="user.username" id="user_username" >
+        <input type="text" name="user.age" id="user_age" > -->
+        <div class="btn">
+            <button class="btn-cancel">Cancel</button>
+            <button class="btn-save">Save</button>
+            <p>Что-то там написано непонятное <a href="#">Перейти</a></p>
+        </div>
+    </form>
+</div>
